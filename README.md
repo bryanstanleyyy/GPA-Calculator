@@ -24,7 +24,6 @@ This GPA Calculator is a Java-based application that helps users manage their ac
    java Main
 4. Example:
    ```bash
-   ***Welcome to GPA Calculator!***
    Enter course name: Introduction to Computer Science
    Enter grade (A, B, C, D, F): A
    Enter credits: 3
