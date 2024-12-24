@@ -5,7 +5,7 @@ This GPA Calculator is a Java-based application that helps users manage their ac
 
 ## Features
 - **Course Management**: Add, update, view, and delete courses with course names, grades, and credits.
-- **Input Validation**: Ensures valid grades (A, B, C, D, E, F) and numeric credits.
+- **Input Validation**: Ensures valid grades (A, B, C, D, F) and numeric credits.
 - **Persistent Storage**: Saves course data to a file so changes are retained across sessions.
 - **Alphabetical Sorting**: Displays courses in alphabetical order for easy viewing.
 - **GPA Calculation**: Computes GPA based on entered grades and credits.
@@ -26,13 +26,13 @@ This GPA Calculator is a Java-based application that helps users manage their ac
    ```bash
    ***Welcome to GPA Calculator!***
    Enter course name: Introduction to Computer Science
-   Enter grade (A, B, C, D, E, F): A
+   Enter grade (A, B, C, D, F): A
    Enter credits: 3
 
    Course added successfully!
 
    Enter course name: Data Structures
-   Enter grade (A, B, C, D, E, F): B
+   Enter grade (A, B, C, D, F): B
    Enter credits: 4
 
    Course added successfully!
