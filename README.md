@@ -15,7 +15,7 @@ This GPA Calculator is a Java-based application that helps users manage their ac
 1. Clone this repository:
    ```bash
    git clone https://github.com/bryanstanleyyy/GPA-Calculator.git
-   cd GPA-Calculator
+   cd GPA-Calculator/src
 2. Compile:
    ```bash
    javac *.java
