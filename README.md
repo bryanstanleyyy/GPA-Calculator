@@ -16,12 +16,12 @@ This GPA Calculator is a Java-based application that helps users manage their ac
    ```bash
    git clone https://github.com/bryanstanleyyy/GPA-Calculator.git
    cd GPA-Calculator
-2. Compile the program:
+2. Compile:
    ```bash
-   javac GPACalculator.java
+   javac *.java
 3. Run the program:
    ```bash
-   java GPACalculator
+   java Main
 4. Example:
    ```bash
    ***Welcome to GPA Calculator!***
