@@ -11,7 +11,7 @@ public class GPACalculator {
 
     public void addCourse(String name, String grade, int credits) {
         if (!isValidGrade(grade)) {
-            throw new IllegalArgumentException("Invalid grade. Please enter a grade (A, B, C, D, E, F).");
+            throw new IllegalArgumentException("Invalid grade. Please enter a grade (A, B, C, D, F).");
         }
         if (credits <= 0) {
             throw new IllegalArgumentException("Invalid number of credits. Please enter a positive integer.");
@@ -25,7 +25,7 @@ public class GPACalculator {
             throw new IllegalArgumentException("Course not found.");
         }
         if (!isValidGrade(grade)) {
-            throw new IllegalArgumentException("Invalid grade. Please enter a grade (A, B, C, D, E, F).");
+            throw new IllegalArgumentException("Invalid grade. Please enter a grade (A, B, C, D, F).");
         }
         if (credits <= 0) {
             throw new IllegalArgumentException("Invalid number of credits. Please enter a positive integer.");
@@ -72,7 +72,6 @@ public class GPACalculator {
             case "B": return 3.0;
             case "C": return 2.0;
             case "D": return 1.0;
-            case "E": return 0.5;
             case "F": return 0.0;
             default: return 0.0;
         }
